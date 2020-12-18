@@ -1,23 +1,65 @@
 {
-  "name": "confusion",
-  "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
-  "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+  "_from": "after@0.8.2",
+  "_id": "after@0.8.2",
+  "_inBundle": false,
+  "_integrity": "sha1-/ts5T58OAqqXaOcCvaI7UF+ufh8=",
+  "_location": "/after",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "after@0.8.2",
+    "name": "after",
+    "escapedName": "after",
+    "rawSpec": "0.8.2",
+    "saveSpec": null,
+    "fetchSpec": "0.8.2"
   },
-  "author": "",
-  "license": "ISC",
+  "_requiredBy": [
+    "/engine.io-parser",
+    "/engine.io/engine.io-parser",
+    "/socket.io/engine.io-parser"
+  ],
+  "_resolved": "https://registry.npmjs.org/after/-/after-0.8.2.tgz",
+  "_shasum": "fedb394f9f0e02aa9768e702bda23b505fae7e1f",
+  "_spec": "after@0.8.2",
+  "_where": "C:\\prj\\git-test\\Bootstrap4\\conFusion\\node_modules\\engine.io-parser",
+  "author": {
+    "name": "Raynos",
+    "email": "raynos2@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Raynos/after/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Raynos",
+      "email": "raynos2@gmail.com",
+      "url": "http://raynos.org"
+    }
+  ],
+  "deprecated": false,
+  "description": "after - tiny flow control",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "mocha": "~1.8.1"
   },
-  "dependencies": {
-    "bootstrap": "^4.0.0",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
-  }
+  "homepage": "https://github.com/Raynos/after#readme",
+  "keywords": [
+    "flowcontrol",
+    "after",
+    "flow",
+    "control",
+    "arch"
+  ],
+  "license": "MIT",
+  "name": "after",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Raynos/after.git"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd --reporter spec test/*.js"
+  },
+  "version": "0.8.2"
 }
